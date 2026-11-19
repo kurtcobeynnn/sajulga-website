@@ -1,1 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4efe6;
+    color: 1f1f1f;
+    line-height: 1.5;
+}
+
+h1,h2,h3, .logo, .sticker {
+    font-family: Impact, sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    text-decoration: underline dashed;
+}
+
+.stickerright {
+    position:sticky;
+    top: -15px;
+    right: 50x;
+    z-index: 1;
+    border: 3px solid #1f1f1f;
+    padding: 5px 12px;
+    font-size: 25px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
