@@ -76,11 +76,13 @@ nav a {
 }
 
 .about img {
-    float: right;
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
     width: 200px;
     margin-left: 20px;
     margin-bottom: 10px;
-    border: 6px solid #1f1f1f;
+    
 }
 main {
     margin-left: 150px;
