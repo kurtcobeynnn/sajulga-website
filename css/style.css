@@ -12,7 +12,7 @@ body {
     line-height: 1.5;
 }
 
-h1,h2,h3, .logo, .sticker {
+h1,h2,h3, .logo, .stickerright {
     font-family: Impact, sans-serif;
     font-weight: normal;
 }
@@ -20,10 +20,10 @@ h1,h2,h3, .logo, .sticker {
 h2 {
     font-size: 45px;
     margin-bottom: 15px;
-    text-decoration: underline dashed;
+    text-decoration: underline;
 }
 
-.header {
+header {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -34,11 +34,9 @@ h2 {
     z-index: 10;
     background-color: rgb(9, 9, 9);
 }
-.nav ul {
-    list-style: none;
-}
 
-.nav a {
+
+nav a {
     display:block;
     color: #f4efe6;
     text-decoration: none;
@@ -47,13 +45,15 @@ h2 {
     border-bottom: 1px solid #8A8479;
 }
 .stickerright {
-    position:sticky;
+    position:absolute;
     top: -15px;
-    right: 50x;
-    z-index: 1;
+    left : 1580px;
+    z-index: 2;
     border: 3px solid #1f1f1f;
     padding: 5px 12px;
     font-size: 25px;
+    background-color: #ffffff;
+    color: #1f1f1f;
 }
 
 .logo {
@@ -61,4 +61,67 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #C2410C;
+}
+.btn {
+    display: inline-block;
+    background-color: #1f1f1f;
+    color: #f4efe6;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #1f1f1f;
+}
+.about {
+    padding: 40px 0 20px 0;
+}
+
+.about img {
+    float: right;
+    width: 200px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 6px solid #1f1f1f;
+}
+main {
+    margin-left: 150px;
+    padding: 20px;
+}
+.hero {
+    position: relative;
+    backround-color: #c2410c;
+    color: f4efe6;
+    border: 5px solid #1f1f1f;
+    padding: 50px;
+}
+.hero h1 {
+    font-size: 80px;
+    margin-bottom: 25x;
+    line-height: 1;
+}
+
+.tagline {
+    margin-bottom: 25px;
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin: 30px 20px 20px 180px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 3px dashed #c2410c;
+    font-size: 12px;
+}
+.credits {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.highlights {
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 6px dashed #1f1f1f;
+    padding: 20px;
 }
