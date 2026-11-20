@@ -1,3 +1,11 @@
+/* Color palette:
+   Cream: #f4efe6
+   Black: #1f1f1f
+   Orange: #c2410c
+   Gray: #8A8479
+   White: #ffffff
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -90,14 +98,14 @@ main {
 }
 .hero {
     position: relative;
-    backround-color: #c2410c;
-    color: f4efe6;
+    background-color: #c2410c;
+    color: #f4efe6;
     border: 5px solid #1f1f1f;
     padding: 50px;
 }
 .hero h1 {
     font-size: 80px;
-    margin-bottom: 25x;
+    margin-bottom: 25px;
     line-height: 1;
 }
 
@@ -116,7 +124,7 @@ footer {
     border: 3px dashed #c2410c;
     font-size: 12px;
 }
-.credits {
+.credit {
     margin-top: 10px;
     font-size: 10px;
 }
